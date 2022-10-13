@@ -1,0 +1,9 @@
+{
+    "name":"giangyoutube",
+    "version": "0.2.0",
+    "home":  "https://giang06.github.io/giangyoutube/",
+    "scrip":{
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+}
